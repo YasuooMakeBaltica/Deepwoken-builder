@@ -1,0 +1,6 @@
+[
+  { "id": "none", "name": "None", "blurb": "No murmur." },
+  { "id": "ardour", "name": "Ardour", "blurb": "A burning cry that rallies the soul." },
+  { "id": "rhythm", "name": "Rhythm", "blurb": "Flow with the beat of combat." },
+  { "id": "tacet", "name": "Tacet", "blurb": "The power of absolute silence." }
+]

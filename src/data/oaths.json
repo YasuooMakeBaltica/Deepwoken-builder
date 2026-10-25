@@ -1,0 +1,20 @@
+[
+  { "id": "none", "name": "None", "req": "", "blurb": "No oath sworn." },
+  { "id": "oathless", "name": "Oathless", "req": "", "blurb": "Reject every oath for raw, flexible progression." },
+  { "id": "blindseer", "name": "Blindseer", "req": "WLL 40", "blurb": "Trade sight for sense; a willful duelist." },
+  { "id": "visionshaper", "name": "Visionshaper", "req": "CHA 50", "blurb": "Bend perception with illusions." },
+  { "id": "starkindred", "name": "Starkindred", "req": "STR 40", "blurb": "Channel the stars into crushing blows." },
+  { "id": "arcwarder", "name": "Arcwarder", "req": "FIR 20 & LTN 20 & FTD 20", "blurb": "Arcane wards and conjured armaments." },
+  { "id": "jetstriker", "name": "Jetstriker", "req": "AGL 50", "blurb": "Explosive speed and relentless pressure." },
+  { "id": "linkstrider", "name": "Linkstrider", "req": "", "blurb": "Bind allies together through soul links." },
+  { "id": "dawnwalker", "name": "Dawnwalker", "req": "LVL 15", "blurb": "Carry the dawn; empowered while it burns." },
+  { "id": "contractor", "name": "Contractor", "req": "", "blurb": "Strike bargains for power — at a price." },
+  { "id": "silentheart", "name": "Silentheart", "req": "comb(HVY,MED,LHT) 75 & STR 25 & (AGL 25 | CHA 25)", "blurb": "Forsake mantras for pure martial frenzy." },
+  { "id": "fadetrimmer", "name": "Fadetrimmer", "req": "LVL 12", "blurb": "Cut through fading echoes." },
+  { "id": "saltchemist", "name": "Saltchemist", "req": "INT 75", "blurb": "Volatile alchemy in a flask." },
+  { "id": "chainwarden", "name": "Chainwarden", "req": "comb(STR,FTD,WLL) 40", "blurb": "Ensnare and drag foes with spectral chains." },
+  { "id": "bladeharper", "name": "Bladeharper", "req": "(MED 75 | comb(HVY,MED,LHT) 90) & (STR 25 | AGL 25)", "blurb": "Conjure a storm of blades." },
+  { "id": "saintsworn", "name": "Saintsworn", "req": "FIR 15 & ICE 15 & LTN 15 & WND 15 & SDW 15", "blurb": "Sacred rites drawn from every element." },
+  { "id": "soulbreaker", "name": "Soulbreaker", "req": "comb(WLL,CHA) 50", "blurb": "Shatter the spirit before the body." },
+  { "id": "blightsurger", "name": "Blightsurger", "req": "comb(STR,FTD,AGL) 80 & (WND 40 | LTN 40)", "blurb": "Ride a surging blight into battle." }
+]

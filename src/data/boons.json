@@ -1,0 +1,9 @@
+[
+  { "id": "none", "name": "None", "blurb": "" },
+  { "id": "autodidact", "name": "Autodidact", "blurb": "Learn faster from your own mistakes." },
+  { "id": "gourmet", "name": "Gourmet", "blurb": "Food grants greater benefits." },
+  { "id": "maverick", "name": "Maverick", "blurb": "Improved talent card choices." },
+  { "id": "packmule", "name": "Packmule", "blurb": "Carry far more weight." },
+  { "id": "steadfast", "name": "Steadfast", "blurb": "Resist being knocked around." },
+  { "id": "survivalist", "name": "Survivalist", "blurb": "Thrive in the wilds; hunger and thirst drain slower." }
+]

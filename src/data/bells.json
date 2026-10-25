@@ -1,0 +1,22 @@
+[
+  { "id": "none", "name": "None" },
+  { "id": "blood-scourge", "name": "Blood Scourge" },
+  { "id": "crazy-slots", "name": "Crazy Slots" },
+  { "id": "chorus-divide", "name": "Chorus Divide" },
+  { "id": "dimensional-travel", "name": "Dimensional Travel" },
+  { "id": "gravity-field", "name": "Gravity Field" },
+  { "id": "jar-of-souls", "name": "Jar Of Souls" },
+  { "id": "paralytic-dust", "name": "Paralytic Dust" },
+  { "id": "payback", "name": "Payback" },
+  { "id": "portals", "name": "Portals" },
+  { "id": "preservation", "name": "Preservation" },
+  { "id": "resurrection", "name": "Resurrection" },
+  { "id": "run-it-back", "name": "Run It Back" },
+  { "id": "sacred-field", "name": "Sacred Field" },
+  { "id": "shard-bow", "name": "Shard Bow" },
+  { "id": "skeleton-key", "name": "Skeleton Key" },
+  { "id": "smite", "name": "Smite" },
+  { "id": "smokescreen", "name": "Smokescreen" },
+  { "id": "teleportation", "name": "Teleportation" },
+  { "id": "wind-up", "name": "Wind Up" }
+]

@@ -1,0 +1,18 @@
+[
+  { "id": "none", "name": "None", "bonuses": {}, "blurb": "No racial bonus." },
+  { "id": "etrean", "name": "Etrean", "bonuses": { "AGL": 2, "INT": 3 }, "blurb": "Quick-witted islanders of the Etrean Luminant." },
+  { "id": "celtor", "name": "Celtor", "bonuses": { "INT": 2, "CHA": 3 }, "blurb": "Proud scholars with a flair for words." },
+  { "id": "adret", "name": "Adret", "bonuses": { "WLL": 2, "CHA": 3 }, "blurb": "Wanderers marked by luminous patterns." },
+  { "id": "canor", "name": "Canor", "bonuses": { "STR": 3, "CHA": 2 }, "blurb": "Broad, boisterous warriors." },
+  { "id": "gremor", "name": "Gremor", "bonuses": { "STR": 2, "FTD": 3 }, "blurb": "Stoic giants built to endure." },
+  { "id": "khan", "name": "Khan", "bonuses": { "STR": 3, "AGL": 2 }, "blurb": "Fierce, disciplined fighters." },
+  { "id": "felinor", "name": "Felinor", "bonuses": { "AGL": 3, "CHA": 2 }, "blurb": "Nimble feline folk." },
+  { "id": "chrysid", "name": "Chrysid", "bonuses": { "AGL": 2, "CHA": 3 }, "blurb": "Bright, chitinous traders." },
+  { "id": "vesperian", "name": "Vesperian", "bonuses": { "FTD": 3, "WLL": 2 }, "blurb": "Armored, unyielding sentinels." },
+  { "id": "capra", "name": "Capra", "bonuses": { "INT": 3, "WLL": 2 }, "blurb": "Horned seekers of hidden lore." },
+  { "id": "ganymede", "name": "Ganymede", "bonuses": { "INT": 2, "WLL": 3 }, "blurb": "Star-touched, serene minds." },
+  { "id": "tiran", "name": "Tiran", "bonuses": { "AGL": 3, "WLL": 2 }, "blurb": "Light-footed and resolute." },
+  { "id": "drakkard", "name": "Drakkard", "bonuses": { "AGL": 2, "FTD": 3 }, "blurb": "Scaled, dragon-blooded hunters." },
+  { "id": "kiron", "name": "Kiron", "bonuses": { "AGL": 3, "INT": 2 }, "blurb": "Swift, sharp-eyed tinkerers." },
+  { "id": "lightborn", "name": "Lightborn", "bonuses": { "STR": 2, "FTD": 2, "AGL": 2, "INT": 2, "WLL": 2, "CHA": 2 }, "blurb": "Rare souls touched by the light. Bonus to every attribute." }
+]

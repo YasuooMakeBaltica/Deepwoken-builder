@@ -1,0 +1,10 @@
+[
+  { "id": "none", "name": "None", "blurb": "No origin selected." },
+  { "id": "castaway", "name": "Castaway", "blurb": "Washed ashore with nothing but grit." },
+  { "id": "authority-ensign", "name": "Authority Ensign", "blurb": "Former soldier of the Authority. Command Division raises the faction talent cap to 5." },
+  { "id": "deepbound", "name": "Deepbound", "blurb": "Born of the Depths, never quite free of them." },
+  { "id": "ignition-delver", "name": "Ignition Delver", "blurb": "A spelunker who lives for the next descent." },
+  { "id": "lone-warrior", "name": "Lone Warrior", "blurb": "Walks alone, fights alone." },
+  { "id": "voidwalker", "name": "Voidwalker", "blurb": "Touched by the void between layers." },
+  { "id": "justicar", "name": "Justicar", "blurb": "Sworn hunter of the lawless." }
+]

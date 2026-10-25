@@ -1,0 +1,10 @@
+[
+  { "id": "none", "name": "None", "blurb": "" },
+  { "id": "glass-bones", "name": "Glass Bones", "blurb": "Take more damage from falls and knockdowns." },
+  { "id": "haemophilia", "name": "Haemophilia", "blurb": "Bleed more, heal less." },
+  { "id": "manic", "name": "Manic", "blurb": "Sanity is fragile." },
+  { "id": "obsessive", "name": "Obsessive", "blurb": "Fixate on goals at the cost of rest." },
+  { "id": "squeamish", "name": "Squeamish", "blurb": "Gore makes you falter." },
+  { "id": "vegetarian", "name": "Vegetarian", "blurb": "Meat is off the menu." },
+  { "id": "blind", "name": "Blind", "blurb": "Your vision is severely limited." }
+]

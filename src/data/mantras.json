@@ -1,0 +1,57 @@
+[
+  { "id": "fire-palm", "name": "Fire Palm", "category": "combat", "attunement": "FIR", "req": "FIR 1", "desc": "Blast a foe with a burning palm." },
+  { "id": "flame-grab", "name": "Flame Grab", "category": "combat", "attunement": "FIR", "req": "FIR 20", "desc": "Seize and detonate an enemy." },
+  { "id": "fire-blade", "name": "Fire Blade", "category": "combat", "attunement": "FIR", "req": "FIR 40", "desc": "Ignite your weapon for searing slashes." },
+  { "id": "burning-servants", "name": "Burning Servants", "category": "combat", "attunement": "FIR", "req": "FIR 60", "desc": "Summon fiery minions." },
+  { "id": "flame-leap", "name": "Flame Leap", "category": "mobility", "attunement": "FIR", "req": "FIR 20", "desc": "Rocket forward on a burst of fire." },
+  { "id": "flame-ward", "name": "Flame Ward", "category": "support", "attunement": "FIR", "req": "FIR 30", "desc": "Wreathe an ally in protective flame." },
+  { "id": "flame-wisp", "name": "Flame Wisp", "category": "wisp", "attunement": "FIR", "req": "FIR 40 & CHA 20", "desc": "A wisp that sings fire." },
+
+  { "id": "ice-lance", "name": "Ice Lance", "category": "combat", "attunement": "ICE", "req": "ICE 1", "desc": "Hurl a jagged spear of ice." },
+  { "id": "ice-daggers", "name": "Ice Daggers", "category": "combat", "attunement": "ICE", "req": "ICE 20", "desc": "Fan out a volley of frozen blades." },
+  { "id": "crystal-impale", "name": "Crystal Impale", "category": "combat", "attunement": "ICE", "req": "ICE 40", "desc": "Spikes erupt beneath your target." },
+  { "id": "frozen-servants", "name": "Frozen Servants", "category": "combat", "attunement": "ICE", "req": "ICE 60", "desc": "Summon icy sentinels." },
+  { "id": "ice-skate", "name": "Ice Skate", "category": "mobility", "attunement": "ICE", "req": "ICE 20", "desc": "Glide across a trail of frost." },
+  { "id": "ice-wall", "name": "Ice Wall", "category": "support", "attunement": "ICE", "req": "ICE 30", "desc": "Raise a barrier of ice." },
+  { "id": "ice-wisp", "name": "Ice Wisp", "category": "wisp", "attunement": "ICE", "req": "ICE 40 & CHA 20", "desc": "A wisp that sings frost." },
+
+  { "id": "lightning-beam", "name": "Lightning Beam", "category": "combat", "attunement": "LTN", "req": "LTN 1", "desc": "Channel a crackling beam." },
+  { "id": "jolt-grab", "name": "Jolt Grab", "category": "combat", "attunement": "LTN", "req": "LTN 20", "desc": "Grab and electrocute." },
+  { "id": "lightning-strike", "name": "Lightning Strike", "category": "combat", "attunement": "LTN", "req": "LTN 40", "desc": "Call down a bolt from above." },
+  { "id": "grand-javelin", "name": "Grand Javelin", "category": "combat", "attunement": "LTN", "req": "LTN 60", "desc": "Throw a colossal spear of lightning." },
+  { "id": "spark-swap", "name": "Spark Swap", "category": "mobility", "attunement": "LTN", "req": "LTN 20", "desc": "Trade places in a flash." },
+  { "id": "lightning-cloak", "name": "Lightning Cloak", "category": "support", "attunement": "LTN", "req": "LTN 30", "desc": "Electrify allies' attacks." },
+
+  { "id": "gale-punch", "name": "Gale Punch", "category": "combat", "attunement": "WND", "req": "WND 1", "desc": "A punch carried by a gust." },
+  { "id": "air-force", "name": "Air Force", "category": "combat", "attunement": "WND", "req": "WND 20", "desc": "Launch a compressed blast of air." },
+  { "id": "tornado", "name": "Tornado", "category": "combat", "attunement": "WND", "req": "WND 40", "desc": "Spin up a cyclone." },
+  { "id": "heavenly-wind", "name": "Heavenly Wind", "category": "combat", "attunement": "WND", "req": "WND 60", "desc": "Rain down a cutting tempest." },
+  { "id": "wind-passage", "name": "Wind Passage", "category": "mobility", "attunement": "WND", "req": "WND 20", "desc": "Dash on the wind." },
+  { "id": "rising-wind", "name": "Rising Wind", "category": "support", "attunement": "WND", "req": "WND 30", "desc": "Lift allies out of danger." },
+
+  { "id": "darkblade", "name": "Darkblade", "category": "combat", "attunement": "SDW", "req": "SDW 1", "desc": "A blade of solid shadow." },
+  { "id": "shadow-gun", "name": "Shadow Gun", "category": "combat", "attunement": "SDW", "req": "SDW 20", "desc": "Fire bolts of darkness." },
+  { "id": "shadow-eruption", "name": "Shadow Eruption", "category": "combat", "attunement": "SDW", "req": "SDW 40", "desc": "Darkness bursts from the ground." },
+  { "id": "shadow-assault", "name": "Shadow Assault", "category": "combat", "attunement": "SDW", "req": "SDW 60", "desc": "Strike from every shadow at once." },
+  { "id": "shade-travel", "name": "Shade Travel", "category": "mobility", "attunement": "SDW", "req": "SDW 20", "desc": "Melt into darkness and reappear." },
+
+  { "id": "metal-rod", "name": "Metal Rod", "category": "combat", "attunement": "MTL", "req": "MTL 1", "desc": "Conjure and hurl an iron rod." },
+  { "id": "iron-slam", "name": "Iron Slam", "category": "combat", "attunement": "MTL", "req": "MTL 40", "desc": "Crash down in iron." },
+  { "id": "magnet-pull", "name": "Magnet Pull", "category": "mobility", "attunement": "MTL", "req": "MTL 20", "desc": "Yank yourself toward metal." },
+
+  { "id": "blood-lance", "name": "Blood Lance", "category": "combat", "attunement": "BLD", "req": "BLD 1", "desc": "Crystallize blood into a spear." },
+  { "id": "crimson-rain", "name": "Crimson Rain", "category": "combat", "attunement": "BLD", "req": "BLD 40", "desc": "A downpour of blood needles." },
+  { "id": "blood-tether", "name": "Blood Tether", "category": "support", "attunement": "BLD", "req": "BLD 30", "desc": "Share vitality with an ally." },
+
+  { "id": "abyssal-ridge", "name": "Abyssal Ridge", "category": "combat", "req": "LVL 10", "desc": "Raise a ridge from the deep." },
+  { "id": "abyssal-tendrils", "name": "Abyssal Tendrils", "category": "combat", "req": "LVL 10", "desc": "Tendrils lash out from the abyss." },
+  { "id": "brachial-spear", "name": "Brachial Spear", "category": "combat", "req": "STR 30", "desc": "Thrust a bone-forged spear." },
+  { "id": "coral-burst", "name": "Coral Burst", "category": "combat", "req": "", "desc": "Coral shards explode outward." },
+  { "id": "dread-breath", "name": "Dread Breath", "category": "combat", "req": "WLL 30", "desc": "Exhale a cloud of dread." },
+  { "id": "mecha-gatling", "name": "Mecha Gatling", "category": "combat", "req": "INT 40", "desc": "Spin up a mechanical barrage." },
+  { "id": "whirling-blade", "name": "Whirling Blade", "category": "combat", "req": "comb(HVY,MED,LHT) 30", "desc": "A spinning weapon flurry." },
+  { "id": "pumpkin-pitch", "name": "Pumpkin Pitch", "category": "combat", "req": "", "desc": "Hurl an explosive gourd. Seasonal." },
+  { "id": "beast-burrow", "name": "Beast Burrow", "category": "mobility", "req": "", "desc": "Dig beneath the earth and resurface." },
+  { "id": "enforcer-pull", "name": "Enforcer Pull", "category": "support", "req": "STR 20", "desc": "Drag an ally to safety." },
+  { "id": "bone-wisp", "name": "Bone Wisp", "category": "wisp", "req": "CHA 20", "desc": "A wisp of bone and song." }
+]
