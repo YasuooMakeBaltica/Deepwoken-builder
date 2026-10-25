@@ -25,12 +25,12 @@ export function SummaryPanel({ build }: { build: Build }) {
   const invested = STATS.filter((s) => totals[s.key] > 0);
 
   const tiles: { label: string; value: number; color: string }[] = [
-    { label: "Health", value: d.health, color: "#ff6b7a" },
-    { label: "Posture", value: d.posture, color: "#ffd27a" },
-    { label: "Ether", value: d.ether, color: "#7fd6ff" },
-    { label: "Tempo", value: d.tempo, color: "#ff9ff0" },
-    { label: "Sanity", value: d.sanity, color: "#b48cff" },
-    { label: "Carry Load", value: d.carryLoad, color: "#9fe0a8" },
+    { label: "Health", value: d.health, color: "#c4574b" },
+    { label: "Posture", value: d.posture, color: "#c08a4a" },
+    { label: "Ether", value: d.ether, color: "#6fb3c8" },
+    { label: "Tempo", value: d.tempo, color: "#b8708f" },
+    { label: "Sanity", value: d.sanity, color: "#8f78b0" },
+    { label: "Carry Load", value: d.carryLoad, color: "#7fa86a" },
   ];
 
   return (

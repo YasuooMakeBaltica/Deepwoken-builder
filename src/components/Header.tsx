@@ -27,17 +27,16 @@ export function Header({ build, dispatch, canUndo, canRedo }: Props) {
     }
   };
 
+  // No confirmation step: starting over is a single undoable action.
   const reset = () => {
-    if (confirm("Start a new build? (You can undo this.)")) {
-      history.replaceState(null, "", location.pathname);
-      dispatch({ type: "reset" });
-    }
+    history.replaceState(null, "", location.pathname);
+    dispatch({ type: "reset" });
   };
 
   return (
     <header className="header panel">
       <div className="brand">
-        <span className="brand-mark" aria-hidden>◉</span>
+        <span className="brand-mark" aria-hidden />
         <div>
           <div className="brand-title">Abyssal Builder</div>
           <div className="brand-sub">a Deepwoken build planner</div>
@@ -52,13 +51,13 @@ export function Header({ build, dispatch, canUndo, canRedo }: Props) {
       />
       <div className="header-actions">
         <button className="btn ghost" onClick={() => dispatch({ type: "undo" })} disabled={!canUndo} title="Undo (Ctrl+Z)">
-          ↶ Undo
+          Undo
         </button>
         <button className="btn ghost" onClick={() => dispatch({ type: "redo" })} disabled={!canRedo} title="Redo (Ctrl+Shift+Z)">
-          ↷ Redo
+          Redo
         </button>
-        <button className="btn ghost" onClick={reset}>✦ New</button>
-        <button className="btn primary" onClick={share}>{copied ? "✓ Link copied" : "⤴ Share"}</button>
+        <button className="btn ghost" onClick={reset} title="Start over (undoable)">New build</button>
+        <button className="btn primary" onClick={share}>{copied ? "Link copied" : "Copy share link"}</button>
       </div>
     </header>
   );

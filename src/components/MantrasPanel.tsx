@@ -70,7 +70,7 @@ export function MantrasPanel({ build, dispatch, onHover }: Props) {
                 const isSel = selected.has(m.id);
                 const blocked = !isSel && (!a.met || !canAddMantra(build, m.category));
                 const state = isSel ? (a.met ? "selected" : "broken") : a.met ? "available" : "locked";
-                const color = m.attunement ? STAT_BY_KEY[m.attunement].color : "#7fd6ff";
+                const color = m.attunement ? STAT_BY_KEY[m.attunement].color : "var(--abyssal)";
                 return (
                   <button
                     key={m.id}
@@ -85,7 +85,8 @@ export function MantrasPanel({ build, dispatch, onHover }: Props) {
                     <span className="card-top">
                       <span className="card-name">{m.name}</span>
                       <span className="card-rarity">
-                        {m.attunement ? `${STAT_BY_KEY[m.attunement].glyph} ${STAT_BY_KEY[m.attunement].name}` : "Abyssal"}
+                        <span className="swatch small" aria-hidden />
+                        {m.attunement ? STAT_BY_KEY[m.attunement].name : "Abyssal"}
                       </span>
                     </span>
                     <span className="card-desc">{m.desc}</span>

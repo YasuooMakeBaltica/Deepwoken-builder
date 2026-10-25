@@ -34,12 +34,13 @@ export function StatsPanel({ build, dispatch, highlight }: Props) {
         className={`stat-row ${invested > 0 ? "active" : ""} ${highlight.has(s.key) ? "hl" : ""}`}
         style={{ "--c": s.color } as CSSProperties}
       >
-        <span className="stat-glyph" aria-hidden>{s.glyph}</span>
+        <span className="swatch" aria-hidden />
         <span className="stat-name">
           {s.name}
           <span className="stat-key">{s.key}</span>
         </span>
         <div className="stat-bar">
+          <span className="stat-fill" style={{ width: `${(invested / RULES.statCap) * 100}%` }} />
           <input
             type="range"
             min={0}
@@ -47,7 +48,6 @@ export function StatsPanel({ build, dispatch, highlight }: Props) {
             value={invested}
             onChange={(e) => set(Number(e.target.value))}
             aria-label={`${s.name} invested`}
-            style={{ "--fill": `${(invested / RULES.statCap) * 100}%` } as CSSProperties}
           />
         </div>
         <div className="stat-controls">
