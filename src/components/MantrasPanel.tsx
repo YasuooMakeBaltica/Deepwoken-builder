@@ -4,6 +4,7 @@ import { canAddMantra, evalContext, mantraAvailability, mantraSlots, type Build 
 import { MANTRAS, type MantraCategory } from "../lib/game";
 import { formatReq, reqStats } from "../lib/requirements";
 import type { Action } from "../lib/useBuild";
+import { StatIcon } from "./StatIcon";
 
 const CATEGORIES: { id: MantraCategory; title: string }[] = [
   { id: "combat", title: "Combat" },
@@ -85,8 +86,17 @@ export function MantrasPanel({ build, dispatch, onHover }: Props) {
                     <span className="card-top">
                       <span className="card-name">{m.name}</span>
                       <span className="card-rarity">
-                        <span className="swatch small" aria-hidden />
-                        {m.attunement ? STAT_BY_KEY[m.attunement].name : "Abyssal"}
+                        {m.attunement ? (
+                          <>
+                            <StatIcon stat={m.attunement} className="stat-icon small" />
+                            {STAT_BY_KEY[m.attunement].name}
+                          </>
+                        ) : (
+                          <>
+                            <span className="swatch small" aria-hidden />
+                            Abyssal
+                          </>
+                        )}
                       </span>
                     </span>
                     <span className="card-desc">{m.desc}</span>

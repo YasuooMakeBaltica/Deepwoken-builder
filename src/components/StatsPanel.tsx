@@ -3,6 +3,7 @@ import { STATS, type StatDef, type StatGroup } from "../data/stats";
 import { pointsSpent, totalStats, type Build } from "../lib/build";
 import { RACE_BY_ID, RULES } from "../lib/game";
 import type { Action } from "../lib/useBuild";
+import { hasStatIcon, StatIcon } from "./StatIcon";
 
 const GROUPS: { id: StatGroup; title: string }[] = [
   { id: "attribute", title: "Attributes" },
@@ -34,7 +35,7 @@ export function StatsPanel({ build, dispatch, highlight }: Props) {
         className={`stat-row ${invested > 0 ? "active" : ""} ${highlight.has(s.key) ? "hl" : ""}`}
         style={{ "--c": s.color } as CSSProperties}
       >
-        <span className="swatch" aria-hidden />
+        {hasStatIcon(s.key) ? <StatIcon stat={s.key} /> : <span className="swatch" aria-hidden />}
         <span className="stat-name">
           {s.name}
           <span className="stat-key">{s.key}</span>
